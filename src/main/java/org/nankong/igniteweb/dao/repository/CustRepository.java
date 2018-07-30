@@ -1,6 +1,7 @@
 package org.nankong.igniteweb.dao.repository;
 
 import org.apache.ignite.springdata.repository.IgniteRepository;
+import org.apache.ignite.springdata.repository.config.EnableIgniteRepositories;
 import org.apache.ignite.springdata.repository.config.Query;
 import org.apache.ignite.springdata.repository.config.RepositoryConfig;
 import org.nankong.igniteweb.model.Customer;
@@ -9,7 +10,6 @@ import org.springframework.data.domain.Pageable;
 
 import java.util.List;
 import java.util.Map;
-
 @RepositoryConfig(cacheName="custCache")
 public interface CustRepository extends IgniteRepository<Customer,String> {
     List<Customer> getCustomersByCustName(String custName);
