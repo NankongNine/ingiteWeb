@@ -1,7 +1,6 @@
 package org.nankong.igniteweb.dao.repository;
 
 import org.apache.ignite.springdata.repository.IgniteRepository;
-import org.apache.ignite.springdata.repository.config.EnableIgniteRepositories;
 import org.apache.ignite.springdata.repository.config.Query;
 import org.apache.ignite.springdata.repository.config.RepositoryConfig;
 import org.nankong.igniteweb.model.Customer;
