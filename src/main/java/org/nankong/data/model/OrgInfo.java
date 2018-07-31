@@ -1,4 +1,4 @@
-package org.nankong.igniteweb.model;
+package org.nankong.data.model;
 
 import org.apache.ignite.cache.query.annotations.QuerySqlField;
 

@@ -3,7 +3,7 @@ package org.nankong.igniteweb.dao.repository;
 import org.apache.ignite.springdata.repository.IgniteRepository;
 import org.apache.ignite.springdata.repository.config.Query;
 import org.apache.ignite.springdata.repository.config.RepositoryConfig;
-import org.nankong.igniteweb.model.Customer;
+import org.nankong.data.model.Customer;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 

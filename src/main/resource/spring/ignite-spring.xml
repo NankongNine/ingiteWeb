@@ -40,7 +40,7 @@
         <property name="indexedTypes">
             <list>
                 <value>java.lang.String</value>
-                <value>org.nankong.igniteweb.model.Customer</value>
+                <value>org.nankong.data.model.Customer</value>
             </list>
         </property>
     </bean>
