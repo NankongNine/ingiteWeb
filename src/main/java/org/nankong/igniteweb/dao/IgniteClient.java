@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 //扫描basePackages包下的类，让这些类能够被注解为SpringData的仓库接口
-@EnableIgniteRepositories(basePackages = {"org.nankong.data.repository"})
+@EnableIgniteRepositories(basePackages = {"org.nankong.igniteweb.dao.repository"})
 public class IgniteClient {
     private static final Logger logger = LoggerFactory.getLogger(IgniteClient.class);
 
